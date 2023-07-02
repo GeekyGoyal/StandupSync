@@ -24,9 +24,11 @@ https://meetingsync123.azurewebsites.net/process_audio
 https://meetingsync123.azurewebsites.net/analyse_weekly_data
 https://meetingsync123.azurewebsites.net/questions
 
-### [Video Link](https://drive.google.com/drive/folders/18GDRqg_0BOjwRme-AA4GUBGqKSfp_mHt?usp=sharing) 
+## Video Link
+[Video Link](https://drive.google.com/drive/folders/18GDRqg_0BOjwRme-AA4GUBGqKSfp_mHt?usp=sharing) 
 
-### [Presentation Link](https://docs.google.com/presentation/d/11PkhfxdJocP7GWlwcuSNR-8Kr3nF9AEv/edit?usp=sharing&ouid=110734208587736988558&rtpof=true&sd=true)
+## Presentation Link
+[Presentation Link](https://docs.google.com/presentation/d/11PkhfxdJocP7GWlwcuSNR-8Kr3nF9AEv/edit?usp=sharing&ouid=110734208587736988558&rtpof=true&sd=true)
 
 ## Workflow
 - User selects the preferred language.
