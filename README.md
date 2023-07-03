@@ -1,6 +1,6 @@
 # StandupSync
 
-StandupSync is a Python-based application that aims to automate the process of generating meeting transcripts and extracting important insights and tasks from daily standup meetings in offices. It utilizes speech-to-text conversion and a language model to provide an efficient and convenient solution for teams.
+StandupSync is a Python-based application that automates and enhances daily standup meetings. With real-time transcription and accurate speech-to-text conversion, teams can effortlessly generate meeting transcripts. The application supports multiple languages, including US English, Spanish, and regional Indic languages. StandupSync intelligently extracts insights, assigns action items, and provides weekly data analysis, improving efficiency and collaboration. Integrated with Google Calendar, it directly inputs meeting details and allows users to ask questions based on collected data. With its powerful features and user-friendly interface, StandupSync transforms standup meetings, saving time and enabling effective communication for teams.
 
 ## Track - LLM API Endpoint
 
@@ -19,16 +19,44 @@ StandupSync is a Python-based application that aims to automate the process of g
 - The API is fluent in US-English, Spanish and majority of our Indic-Regional languages as well.
 - Seamlessly integrate with team members' Google Calendars to automatically add notes and reminders based on extracted DSM insights.
 
-## API ENDPOINTS
+## Getting Started 
+To run the project locally, follow these steps:
+
+## Prerequisites
+- Python 3.x installed on your machine
+- Virtual environment tool such as venv or conda (optional but recommended)
+
+## Installation
+
+1. Clone the repository: </br>
+    ```
+    git clone https://github.com/Mercor-HackLab/StandupSync.git 
+    cd StandupSync
+    ```
+
+2. Install the required dependencies: </br>
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Set up the secret key: 
+    - Create a secret_key.py file in the project root directory.
+    - Add the following content to the secret_key.py file: </br>
+        ```
+        API_KEY = "<your-api-key>"
+        AZURE_KEY = "<your-azure-key>"
+        ```
+    - Replace `<your-api-key>` and `<your-azure-key>` with your actual API keys.
+
+4. Set up the Google Calendar credentials:
+    - Place the credentials.json file (which contains your Google Calendar API credentials) in the project root directory.
+
+5. Run the project
+
+## API Endpoints
 https://meetingsync123.azurewebsites.net/process_audio
 https://meetingsync123.azurewebsites.net/analyse_weekly_data
 https://meetingsync123.azurewebsites.net/questions
-
-## Video Link
-[Video Link](https://drive.google.com/drive/folders/18GDRqg_0BOjwRme-AA4GUBGqKSfp_mHt?usp=sharing) 
-
-## Presentation Link
-[Presentation Link](https://docs.google.com/presentation/d/11PkhfxdJocP7GWlwcuSNR-8Kr3nF9AEv/edit?usp=sharing&ouid=110734208587736988558&rtpof=true&sd=true)
 
 ## Workflow
 - User selects the preferred language.
@@ -68,6 +96,12 @@ https://meetingsync123.azurewebsites.net/questions
 - Voice Assistant Integration
 - Enhanced Scalability
 - Custom Analysis Periods
+
+## Video Link
+[Click here to redirect](https://drive.google.com/drive/folders/18GDRqg_0BOjwRme-AA4GUBGqKSfp_mHt?usp=sharing) 
+
+## Presentation Link
+[Click here to redirect](https://docs.google.com/presentation/d/11PkhfxdJocP7GWlwcuSNR-8Kr3nF9AEv/edit?usp=sharing&ouid=110734208587736988558&rtpof=true&sd=true)
 
 ## Acknowledgments
 This project is inspired by the need to automate and streamline the process of daily standup meetings. We would like to express our gratitude to the developers and contributors of the libraries and APIs used in this project, which include the GPT API, speech_recognition library and Google Cloud services.
